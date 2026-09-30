@@ -1,0 +1,12 @@
+{
+  "period": "2026-09",
+  "gross_order_revenue_cents": 374200,
+  "refunds_recognized_cents": 21600,
+  "net_revenue_cents": 352600,
+  "processing_fees_cents": 12586,
+  "dispute_adjustments_cents": 0,
+  "expected_payout_cents": 340014,
+  "adjustments_applied_cents": 0,
+  "processor_payout_cents": 325114,
+  "variance_cents": 14900
+}

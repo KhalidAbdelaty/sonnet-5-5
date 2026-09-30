@@ -1,0 +1,24 @@
+RIVERMARK SUBSCRIPTIONS - MONTH-END CLOSE POLICY (v3, effective 2026-01-01)
+
+POL-1 Period. A month's close covers processor activity with a settled_date in that
+calendar month (UTC). All amounts are integer cents, USD.
+
+POL-2 Revenue. Subscription orders are recognized on order_date. Card charges settle
+with the processor on the order date.
+
+POL-3 Refunds. A refund is recognized in the month its settled_date falls in, whatever
+the month of the original order.
+
+POL-4 Processor costs. Fees the processor deducts are payment costs of the month they
+settle in.
+
+POL-5 Expected payout. Expected payout = orders recognized in the month - refunds
+recognized in the month - processor costs of the month.
+
+POL-6 Balanced. A month is reconciled when expected payout plus recorded adjustments
+equals the processor payout to the cent.
+
+POL-7 Corrections. Source exports are never edited. A correction is an adjustment
+entry in the close adjustments ledger. Each entry names the policy rule it applies,
+the source record that evidences it, and a signed amount applied to expected payout
+(negative reduces expected payout). Finance approves the plan before entries are made.

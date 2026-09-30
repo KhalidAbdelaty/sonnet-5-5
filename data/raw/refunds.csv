@@ -1,0 +1,8 @@
+refund_id,order_id,requested_date,settled_date,amount_cents,reason
+RF-1038,ORD-20803,2026-08-27,2026-08-28,2900,duplicate signup
+RF-1041,ORD-20810,2026-08-30,2026-08-31,7900,cancelled in trial
+RF-1043,ORD-20813,2026-08-31,2026-09-02,14900,downgrade requested
+RF-1044,ORD-20819,2026-09-04,2026-09-05,7900,cancelled in trial
+RF-1045,ORD-20833,2026-09-10,2026-09-11,7900,billing error
+RF-1046,ORD-20850,2026-09-19,2026-09-20,2900,duplicate signup
+RF-1047,ORD-20861,2026-09-24,2026-09-25,2900,cancelled in trial
